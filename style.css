@@ -1,25 +1,36 @@
 @import url('https://fonts.googleapis.com/css?family=Asap');
 
 * {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-background-color: #6ed3cf;
+  background-color: #6ed3cf;
 }
 
 header {
-background: #e62739;
-padding: 20px;
+  background: #e62739;
+  padding: 20px;
 }
 
 header > h1 {
-color: black;
-text-align: center;
-font-weight: bold;
-font-family: Asap , sans-serif;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  font-family: Asap , sans-serif;
+}
+
+footer {
+  background-color: #e62739;
+  font-weight: bold;
+  font-family: Asap , sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 15px 20px;
+
+
 }
 
 .score-board {
